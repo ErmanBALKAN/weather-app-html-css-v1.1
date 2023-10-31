@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="header">
+                <img src="./assets/images/weather-moon-cloud.svg" alt="moon-cloud">
+                <div class="fah-cel" id="fah-cel">
+                    <span class="fah">F</span>
+                    <span class="cel active">C</span>
+                    <span class="remove"></span>
+                </div>
+            </div>
+            <div class="section">
+                <div class="middle">
+                    <div class="middle-header">
+                        <h1>27</h1><sup><sup>o</sup>C</sup>
+                    </div>
+                    <h3>17th Jun '23</h3>
+                    <div class="h4">
+                        <h4>Thrusday </h4>
+                        <h4>I</h4>
+                        <h4>2:45 am</h4>
+                    </div>
+                </div>
+                <div class="features">
+                    <img class="wind" src="./assets/images/wind-direction.svg" alt="wind-direction">
+                    <span>Wind 10 km/h </span>I
+                    <img class="humidity" src="./assets/images/humidity.svg" alt="humidity">
+                    <span>Hum 54 % </span>I
+                    <img class="rain" src="/assets/images/rain.svg" alt="rain">
+                    <span>Rain 0.2 %</span>
+                </div>
+                <div class="footer">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="days swiper-slide">
+                                <div class="days-val">
+                                    <h5>24</h5><sup>°</sup>
+                                    <p>C</p>
+                                </div>
+                                <img src="./assets/images/cloud.svg" alt="cloud">
+                                <span>Fri</span>
+                            </div>
+                            <div class="days swiper-slide">
+                                <div class="days-val">
+                                    <h5>25</h5><sup>°</sup>
+                                    <p>C</p>
+                                </div>
+                                <img src="./assets/images/cloud.svg" alt="cloud">
+                                <span>Sat</span>
+                            </div>
+                            <div class="days swiper-slide">
+                                <div class="days-val">
+                                    <h5>26</h5><sup>°</sup>
+                                    <p>C</p>
+                                </div>
+                                <img src="./assets/images/cloud.svg" alt="cloud">
+                                <span>Sun</span>
+                            </div>
+                            <div class="days swiper-slide">
+                                <div class="days-val">
+                                    <h5>31</h5><sup>°</sup>
+                                    <p>C</p>
+                                </div>
+                                <img src="./assets/images/cloud.svg" alt="cloud">
+                                <span>Mon</span>
+                            </div>
+                            <div class="days swiper-slide">
+                                <div class="days-val">
+                                    <h5>30</h5><sup>°</sup>
+                                    <p>C</p>
+                                </div>
+                                <img src="./assets/images/cloud.svg" alt="cloud">
+                                <span>Tue</span>
+                            </div>
+                            <div class="days swiper-slide">
+                                <div class="days-val">
+                                    <h5>29</h5><sup>°</sup>
+                                    <p>C</p>
+                                </div>
+                                <img src="./assets/images/cloud.svg" alt="cloud">
+                                <span>Wed</span>
+                            </div>
+                            <div class="days swiper-slide">
+                                <div class="days-val">
+                                    <h5>21</h5><sup>°</sup>
+                                    <p>C</p>
+                                </div>
+                                <img src="./assets/images/cloud.svg" alt="cloud">
+                                <span>Thu</span>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="r-header">
+                <div class="cities">
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span>
+                    <p>Delhi, India</p>
+                </div>
+                <div class="search">
+                    <img src="./assets/images/search.svg" alt="search">
+                </div>
+            </div>
+            <div class="r-section">
+                <div class="times">
+                    <div class="sunrise">
+                        <h6>Sunrise</h6>
+                        <div class="clock">
+                            <img src="./assets/images/clock.svg" alt="clock">
+                            <div class="clock-span">
+                                <span>11:24</span>
+                                <span>11:45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="golden">
+                        <h5>Golden Hour</h5>
+                        <div class="clock">
+                            <img class="golden-hour" src="./assets/images/clock.svg" alt="clock">
+                            <div class="clock-span">
+                                <span>6:00 <span>AM</span></span>
+                                <span>6:49 <span>PM</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sunset">
+                        <h6>Sunset</h6>
+                        <div class="clock">
+                            <img src="./assets/images/clock.svg" alt="clock">
+                            <div class="clock-span">
+                                <span>7:21</span>
+                                <span>7:24</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="r-footer">
+                    <div class="line-container">
+                        <div class="line"></div>
+                        <p id="info"><i>i</i></p>
+                    </div>
+                </div>
+                <div class="info none">
+                    <p>"Golden hour" is the hour just after sunrise and just before sunset.</p>
+                </div>
+                <div class="r-footer-end">
+                    <div class="air">
+                        <h4>Air Quality</h4>
+                        <div class="moderate">
+                            <span>2/5</span>
+                            <span>Moderate</span>
+                        </div>
+                    </div>
+                    <div class="uv">
+                        <h4>UV Index</h4>
+                        <div class="moderate">
+                            <span>6/10</span>
+                            <span>High</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
